@@ -233,8 +233,8 @@ html body .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
 .post:has(.contact-icons) {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 12rem);
-  min-height: calc(100svh - 12rem);
+  min-height: calc(100vh - 11.25rem);
+  min-height: calc(100svh - 11.25rem);
 }
 
 .post:has(.contact-icons) > article {
