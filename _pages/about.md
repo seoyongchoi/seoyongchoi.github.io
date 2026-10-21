@@ -20,7 +20,6 @@ latest_posts:
 
 ### English Education and Natural Language Processing
 
-<figure class="home-painting">
-  <img src="/assets/img/prodigal-son.jpg" alt="Rembrandt, The Return of the Prodigal Son" />
-  <figcaption>Rembrandt, <em>The Return of the Prodigal Son</em>, c. 1661–1669. State Hermitage Museum, Saint Petersburg.</figcaption>
-</figure>
+<div class="home-painting">
+  {% include figure.liquid loading="eager" path="assets/img/prodigal-son.jpg" sizes="(max-width: 576px) 92vw, 55vh" alt="Rembrandt, The Return of the Prodigal Son" %}
+</div>
